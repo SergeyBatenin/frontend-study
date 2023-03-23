@@ -10,6 +10,7 @@ a {
 body {
 	font-family: 'Gilroy-Bold', sans-serif;
 	font-family: 'Gilroy-Medium', sans-serif;
+	font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .center {
@@ -100,4 +101,138 @@ body {
 	display: flex;
 	justify-content: flex-end;
 	gap: 48px;
+}
+
+.content__top {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	gap: 60px;
+	justify-content: center;
+	background: #ffffff;
+}
+
+.content__top_item {
+	padding: 40px 30px 25px 30px;
+	width: 370px;
+}
+
+.content__top_item_shadow {
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.content__top_icons {
+	margin-bottom: 25px;
+	border-radius: 15px;
+}
+
+.content__top_subtitle {
+	margin-bottom: 17px;
+	font-size: 24px;
+	line-height: 28px;
+
+	color: #000000;
+}
+
+.content__top_text {
+	width: 310px;
+	margin-bottom: 25px;
+	font-size: 15px;
+	line-height: 150%;
+	/* or 22px */
+
+	color: #666666;
+}
+
+.content__top_link {
+	font-family: 'Gilroy-Bold';
+	font-size: 11px;
+	line-height: 150%;
+	/* identical to box height, or 16px */
+
+	color: #000000;
+}
+
+.content__main {
+	background: #fafafa;
+	padding-top: 92px;
+	padding-bottom: 100px;
+}
+
+.why_choose_us {
+	margin-bottom: 54px;
+}
+
+.why_choose_us_title {
+	margin-bottom: 19px;
+	font-size: 45px;
+	line-height: 53px;
+	color: #000000;
+	font-weight: 700;
+	text-align: center;
+}
+
+.why_choose_us_about {
+	width: 682px;
+	margin: auto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #666666;
+}
+
+.content__choose_us {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+.content__choose_us_item {
+	width: 370px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.content__choose_us_logo {
+	margin-bottom: 25px;
+}
+
+.content__choose_us_subtitle {
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 22px;
+	color: #000000;
+}
+
+.content__choose_us_text {
+	margin-bottom: 39px;
+	margin-right: 30px;
+	margin-left: 30px;
+	font-size: 15px;
+	line-height: 150%;
+	text-align: center;
+
+	color: #aaaaaa;
+}
+
+.shadow {
+	background: #ffffff;
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.content__choose_us_btn {
+	border: none;
+	width: 150px;
+	height: 50px;
+	margin-left: 100px;
+	margin-right: 120px;
+	margin-bottom: 50px;
+	background: #f25822;
+	box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+	border-radius: 50px;
+	font-size: 13px;
+	line-height: 150%;
+	text-align: center;
+	color: #ffffff;
 }
