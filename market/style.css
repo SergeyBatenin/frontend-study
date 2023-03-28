@@ -104,7 +104,7 @@ nav {
 
 .main {
 	padding-top: 65px;
-	padding-bottom: 61px;
+	padding-bottom: 96px;
 }
 
 .main_categories {
@@ -141,19 +141,27 @@ nav {
 
 .women {
 	background: url(img/main/category_women.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .men {
 	background: url(img/main/category_men.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .kids {
 	background: url(img/main/category_kids.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .luxory {
 	grid-column: span 3;
 	background: url(img/main/category_luxory.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 65px 490px;
 }
 
@@ -322,6 +330,10 @@ nav {
 	color: #222224;
 }
 
+.feedback_text_italic {
+	font-style: italic;
+}
+
 .subscribe {
 	text-align: center;
 	width: 557px;
@@ -382,8 +394,107 @@ nav {
 	line-height: 17px;
 	display: flex;
 	align-items: center;
-	text-align: center;
+	justify-content: center;
 	color: #ffffff;
 	background: #f16d7f;
 	min-height: 49px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.center {
+		padding-left: calc(50% - 368px);
+		padding-right: calc(50% - 368px);
+	}
+
+	.nav_menu {
+		margin-right: 25px;
+	}
+
+	.nav_username {
+		margin-right: 42px;
+	}
+
+	.header_welcome-logo {
+		background: #f1e4e6;
+		display: flex;
+		padding-left: calc(50% - 384px);
+		padding-right: calc(50% - 384px);
+	}
+
+	.slogan {
+		margin-left: 39px;
+		margin-top: 138px;
+	}
+
+	.slogan h1 {
+		font-size: 44px;
+		line-height: 53px;
+	}
+
+	.slogan h2 {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.main {
+		padding-bottom: 65px;
+	}
+
+	.main_categories {
+		margin-bottom: 110px;
+		grid-template-columns: repeat(3, 232px);
+		gap: 20px;
+	}
+
+	.women {
+		padding: 59px 39px;
+	}
+
+	.men {
+		padding: 59px 61px;
+	}
+
+	.kids {
+		padding: 59px 58px;
+	}
+
+	.luxory {
+		padding: 33px 287px;
+	}
+
+	.main_subtitle {
+		margin-bottom: 3px;
+	}
+
+	.main_text {
+		margin-bottom: 74px;
+	}
+
+	.main_goods {
+		margin-bottom: 33px;
+		grid-template-columns: repeat(2, 360px);
+		gap: 16px;
+	}
+
+	.advantages {
+		justify-content: center;
+		padding-top: 48px;
+		padding-bottom: 64px;
+		gap: 48px;
+	}
+
+	.inviting {
+		padding-top: 64px;
+		padding-bottom: 140px;
+	}
+
+	.inviting_content {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 48px;
+	}
+
+	.social_media_icons {
+		gap: 7px;
+	}
 }
