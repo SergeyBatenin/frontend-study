@@ -36,18 +36,8 @@ nav {
 	padding-bottom: 16px;
 }
 
-.nav_search-logo {
-	/* margin-top: 18px;
-	margin-bottom: 19px; */
-}
-
 .search_img {
 	margin-left: 41px;
-}
-
-.nav_menubar {
-	/* margin-top: 18px;
-	margin-bottom: 20px; */
 }
 
 .nav_menu {
@@ -67,10 +57,6 @@ nav {
 
 .header_logo {
 	width: 50%;
-}
-
-.header_slogan {
-	/* width: 50%; */
 }
 
 .slogan {
@@ -496,5 +482,150 @@ nav {
 
 	.social_media_icons {
 		gap: 7px;
+	}
+
+	.footer {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+	.center {
+		padding-left: calc(50% - 180px);
+		padding-right: calc(50% - 180px);
+	}
+
+	.nav {
+		padding: 18px 16px;
+	}
+
+	.nav_menu {
+		margin-right: 0;
+	}
+
+	.nav_username {
+		display: none;
+	}
+
+	.nav_basket {
+		display: none;
+	}
+
+	.header_logo {
+		display: none;
+	}
+
+	.header_slogan {
+		width: 100%;
+		padding: 148px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.slogan {
+		margin: 0;
+		padding-left: 15px;
+	}
+
+	.slogan h1 {
+		font-size: 38px;
+		line-height: 45px;
+	}
+
+	.slogan h2 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.main_categories {
+		margin-bottom: 64px;
+		grid-template-columns: repeat(1, 343px);
+		grid-area: 32px;
+	}
+
+	.women {
+		padding: 98px 95px;
+	}
+
+	.men {
+		padding: 101px 72px 77px 72px;
+	}
+
+	.kids {
+		padding: 105px 90px 72px 90px;
+	}
+
+	.luxory {
+		grid-column: 1 / 1;
+		padding: 30px 91px;
+	}
+
+	.main_text {
+		margin-bottom: 64px;
+	}
+
+	.main_goods {
+		margin-bottom: 41px;
+		grid-template-columns: repeat(1, 359px);
+		gap: 32px;
+	}
+
+	.all_product {
+		padding: 15px 39px;
+	}
+
+	.advantages {
+		padding-top: 48px;
+		padding-bottom: 81px;
+	}
+
+	.inviting {
+		padding-top: 64px;
+		padding-bottom: 109px;
+	}
+
+	.inviting_content {
+		flex-wrap: wrap;
+		gap: 59px;
+	}
+
+	.feedback {
+		width: 343px;
+	}
+
+	.feedback_text {
+		font-size: 19px;
+		line-height: 23px;
+	}
+
+	.feedback_text_italic {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.subscribe {
+		width: 342px;
+	}
+
+	.subscribe_title {
+		line-height: 37px;
+	}
+
+	.subscribe_subtitle {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.footer {
+		padding-top: 43px;
+		padding-bottom: 9px;
+		flex-direction: column-reverse;
+		gap: 40px;
+	}
+
+	.copyright {
+		margin: 0;
 	}
 }
