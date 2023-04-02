@@ -749,4 +749,54 @@ nav {
 		grid-template-columns: repeat(1, 295px);
 		justify-content: center;
 	}
+
+	.inviting {
+		padding-top: 54px;
+		padding-bottom: 86px;
+	}
+
+	.inviting_content {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 50px;
+	}
+
+	.footer {
+		padding-top: 35px;
+		padding-bottom: 4px;
+		flex-direction: column-reverse;
+		gap: 35px;
+	}
+
+	.feedback_text {
+		font-size: 19px;
+		line-height: 23px;
+	}
+
+	.feedback_text_italic {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.subscribe_title {
+		line-height: 37px;
+	}
+
+	.subscribe_subtitle {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.input_email {
+		padding-right: 34px;
+	}
+
+	.btn {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.copyright {
+		margin: 0;
+	}
 }
