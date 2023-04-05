@@ -294,6 +294,23 @@ nav {
 	gap: 8px;
 }
 
+.social_media_icon {
+	background: #ffffff;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social_media_icon:hover {
+	background: #f16d7f;
+}
+
+.social_media_icon:hover path {
+	fill: #ffffff;
+}
+
 .inviting {
 	background: url(img/inviting/background.svg);
 	background-repeat: no-repeat;
