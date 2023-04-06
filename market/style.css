@@ -8,6 +8,7 @@ body {
 }
 
 a {
+	cursor: pointer;
 	text-decoration: none;
 }
 
@@ -182,6 +183,27 @@ nav {
 	background: #f8f8f8;
 }
 
+.photo_product {
+	position: relative;
+}
+
+.product_button {
+	position: absolute;
+	padding: 11px 16px 9px 13px;
+	border: 1px solid #ffffff;
+	/* display: none; */
+	/* z-index: 2; */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+}
+
+.photo_product:hover {
+	background-color: #3a3838;
+}
+
 .card_product {
 	padding: 24px 29px 20px 16px;
 }
@@ -225,6 +247,12 @@ nav {
 	line-height: 19px;
 	color: #f26376;
 	text-align: center;
+	cursor: pointer;
+}
+
+.all_product:hover {
+	background: #ff6a6a;
+	color: #ffffff;
 }
 
 .advantages {
