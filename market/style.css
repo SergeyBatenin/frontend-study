@@ -189,10 +189,11 @@ nav {
 
 .product_button {
 	position: absolute;
+	top: 188px;
+	left: 110px;
 	padding: 11px 16px 9px 13px;
 	border: 1px solid #ffffff;
-	/* display: none; */
-	/* z-index: 2; */
+	display: none;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -200,8 +201,12 @@ nav {
 	color: #ffffff;
 }
 
-.photo_product:hover {
-	background-color: #3a3838;
+.photo_product:hover .product_image {
+	filter: brightness(0.4);
+}
+
+.photo_product:hover .product_button {
+	display: block;
 }
 
 .card_product {
@@ -238,7 +243,8 @@ nav {
 
 .all_product {
 	width: 210px;
-	padding: 15px 39px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	margin: 0 auto;
 	border: 1px solid #ff6a6a;
 	font-style: normal;
@@ -436,6 +442,7 @@ nav {
 	color: #ffffff;
 	background: #f16d7f;
 	min-height: 49px;
+	cursor: pointer;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
