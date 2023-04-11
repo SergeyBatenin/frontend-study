@@ -1,0 +1,51 @@
+@import 'vars';
+
+@mixin flexCenter() {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+%fontNav {
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.a {
+	text-decoration: none;
+}
+
+.container {
+	width: $widthPage;
+	@at-root .heading {
+		color: red;
+		span {
+			color: $colorTextSite;
+		}
+	}
+}
+
+.nav {
+	display: flex;
+	gap: $gapNav;
+	&__link {
+		text-decoration: none;
+		@extend %fontNav;
+	}
+}
+
+.content {
+	@include flexCenter();
+	gap: $gapNav;
+	&__item {
+		width: calc($widthPage / 4);
+		height: 200px;
+		border: $blackBorder;
+	}
+}
