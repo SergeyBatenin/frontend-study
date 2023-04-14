@@ -97,12 +97,15 @@ img {
   fill: #f16d7f;
 }
 .main__product-description {
+  margin-bottom: 64px;
+}
+.main__product-description_border {
   padding-top: 64px;
   padding-bottom: 64px;
-  margin-bottom: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid #eaeaea;
 }
 .main__product-description_title {
   margin-bottom: 12px;

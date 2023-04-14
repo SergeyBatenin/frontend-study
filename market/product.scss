@@ -108,12 +108,16 @@ img {
 	}
 
 	&__product-description {
+		margin-bottom: 64px;
+	}
+
+	&__product-description_border {
 		padding-top: 64px;
 		padding-bottom: 64px;
-		margin-bottom: 64px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		border: 1px solid #eaeaea;
 	}
 
 	&__product-description_title {
