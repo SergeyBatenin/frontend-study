@@ -163,6 +163,9 @@ img {
   display: flex;
   gap: 24px;
 }
+.main__filter span {
+  margin-right: 9px;
+}
 .main__add-button {
   padding: 14px 56px 8px 24px;
   color: #f16d7f;

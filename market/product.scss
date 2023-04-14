@@ -183,6 +183,10 @@ img {
 		gap: 24px;
 	}
 
+	&__filter span {
+		margin-right: 9px;
+	}
+
 	&__add-button {
 		padding: 14px 56px 8px 24px;
 		color: $selectiveColorSite;
