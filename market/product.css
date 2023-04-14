@@ -1,0 +1,328 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header {
+  margin: 0 auto;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  background: #222222;
+}
+.header__nav_search-logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 41px;
+}
+.header__nav_menubar {
+  display: flex;
+  align-items: flex-end;
+  gap: 33px;
+}
+
+.breadcrumbs {
+  min-height: 148px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f3f4;
+}
+.breadcrumbs__current-position {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+.breadcrumbs__items {
+  display: flex;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+.breadcrumbs__items_item:not(:last-child):after {
+  content: " / ";
+  color: #636363;
+}
+.breadcrumbs__items_item:last-child {
+  color: #f16d7f;
+}
+
+.main {
+  padding-bottom: 128px;
+}
+.main__slider {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+.main__slider_button {
+  width: 47px;
+  height: 47px;
+  border: none;
+}
+.main__slider_button:hover {
+  cursor: pointer;
+}
+.main__slider_button:hover path {
+  fill: #f16d7f;
+}
+.main__product-description {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__product-description_title {
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+.main__short-line {
+  margin-bottom: 12px;
+  width: 64px;
+  height: 4px;
+  background-color: #ef5b70;
+  border: none;
+}
+.main__product-description_name {
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+}
+.main__product-description_about {
+  width: 554px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #5e5e5e;
+}
+.main__product-description_price {
+  margin-bottom: 64px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+}
+.main__long-line {
+  margin-bottom: 64px;
+  width: 640px;
+  border: 1px solid #eaeaea;
+}
+.main__filter {
+  margin-bottom: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6f6e6e;
+  display: flex;
+  gap: 24px;
+}
+.main__add-button {
+  padding: 14px 56px 8px 24px;
+  color: #f16d7f;
+  border: 1px solid #f16d7f;
+  display: flex;
+  gap: 24px;
+}
+.main__goods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.main__goods_item {
+  width: 360px;
+}
+.main__item_card {
+  padding: 24px 28px 20px 16px;
+  background: #f8f8f8;
+}
+.main__item_product-name {
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+.main__item_product-description {
+  margin-bottom: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5d5d5d;
+}
+.main__item_product-price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f16d7f;
+}
+
+.inviting {
+  background: url(img/inviting/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 97px;
+  padding-bottom: 126px;
+}
+.inviting__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inviting__feedback {
+  width: 360px;
+  text-align: center;
+}
+.inviting__feedback_text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #222224;
+}
+.inviting__feedback_text_italic {
+  font-style: italic;
+}
+.inviting__subscribe {
+  text-align: center;
+  width: 557px;
+}
+.inviting__subscribe_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #222224;
+}
+.inviting__subscribe_subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #222224;
+}
+.inviting__subscribe_btn {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inviting__input_email {
+  padding-left: 22px;
+  padding-right: 64px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #222224;
+  background: #e1e1e1;
+  min-height: 49px;
+}
+.inviting__btn {
+  padding-left: 19px;
+  padding-right: 19px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #f16d7f;
+  min-height: 49px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #222224;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__copyright {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fbfbfb;
+}
+.footer__social-media_icons {
+  display: flex;
+  gap: 8px;
+}
+.footer__social-media_icon {
+  background: #ffffff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social-media_icon:hover {
+  background: #f16d7f;
+}
+.footer__social-media_icon:hover path {
+  fill: #ffffff;
+}/*# sourceMappingURL=product.css.map */
