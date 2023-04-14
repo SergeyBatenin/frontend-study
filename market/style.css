@@ -58,6 +58,9 @@ img {
   padding-left: calc(50% - 800px);
   padding-right: calc(50% - 800px);
 }
+.header__logo {
+  width: 50%;
+}
 .header__slogan_content {
   border-left: 12px solid #f16d7f;
   padding-left: 16px;
@@ -417,7 +420,7 @@ img {
     padding-left: calc(50% - 384px);
     padding-right: calc(50% - 384px);
   }
-  .header__slogan {
+  .header__slogan_content {
     margin-left: 39px;
     margin-top: 138px;
   }

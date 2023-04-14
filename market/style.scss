@@ -65,6 +65,10 @@ img {
 		padding-right: calc(50% - 800px);
 	}
 
+	&__logo {
+		width: 50%;
+	}
+
 	&__slogan_content {
 		border-left: 12px solid #f16d7f;
 		padding-left: 16px;
@@ -470,7 +474,7 @@ img {
 			padding-right: calc(50% - 384px);
 		}
 
-		&__slogan {
+		&__slogan_content {
 			margin-left: 39px;
 			margin-top: 138px;
 		}
