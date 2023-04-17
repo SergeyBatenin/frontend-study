@@ -1,5 +1,4 @@
-$widthContentSite: 1140px;
-$selectiveColorSite: #f16d7f;
+@import 'vars';
 
 * {
 	margin: 0;
@@ -163,26 +162,26 @@ img {
 	}
 }
 .women {
-	background: url(img/main/category_women.png);
+	background: url(../img/main/category_women.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .men {
-	background: url(img/main/category_men.png);
+	background: url(../img/main/category_men.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .kids {
-	background: url(img/main/category_kids.png);
+	background: url(../img/main/category_kids.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .luxory {
 	grid-column: span 3;
-	background: url(img/main/category_luxory.png);
+	background: url(../img/main/category_luxory.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 65px 490px;

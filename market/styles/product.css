@@ -60,6 +60,8 @@ img {
 }
 .breadcrumbs__items {
   display: flex;
+}
+.breadcrumbs__items_item {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -170,6 +172,16 @@ img {
   padding: 14px 56px 8px 24px;
   border: 1px solid #f16d7f;
 }
+.main__add-button:hover {
+  cursor: pointer;
+  background-color: #f16d7f;
+}
+.main__add-button:hover .main__add-button_link path {
+  fill: #ffffff;
+}
+.main__add-button:hover .main__add-button_link {
+  color: #ffffff;
+}
 .main__add-button_link {
   color: #f16d7f;
   display: flex;
@@ -182,10 +194,10 @@ img {
 }
 .main__goods_item {
   width: 360px;
+  background: #f8f8f8;
 }
 .main__item_card {
   padding: 24px 28px 20px 16px;
-  background: #f8f8f8;
 }
 .main__item_product-name {
   margin-bottom: 12px;
@@ -212,7 +224,7 @@ img {
 }
 
 .inviting {
-  background: url(img/inviting/background.svg);
+  background: url(../img/inviting/background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 97px;
