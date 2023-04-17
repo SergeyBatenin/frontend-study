@@ -235,13 +235,15 @@ summary::-webkit-details-marker {
   align-items: center;
 }
 .main__catalog_links-page {
+  display: flex;
+  gap: 25px;
+}
+.main__catalog_link-page {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
   color: #c4c4c4;
-  display: flex;
-  gap: 25px;
 }
 .main__catalog_link-page:first-child {
   color: #f16d7f;
