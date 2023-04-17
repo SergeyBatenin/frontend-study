@@ -8,7 +8,6 @@ $selectiveColorSite: #f16d7f;
 
 body {
 	font-family: 'Lato', sans-serif;
-	font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -79,6 +78,9 @@ summary::-webkit-details-marker {
 
 	&__items {
 		display: flex;
+	}
+
+	&__items_item {
 		font-style: normal;
 		font-weight: 300;
 		font-size: 14px;
@@ -212,6 +214,7 @@ summary::-webkit-details-marker {
 		&_sort-check {
 			display: flex;
 			gap: 9px;
+			font-family: 'Roboto', sans-serif;
 			font-style: normal;
 			font-weight: 400;
 			font-size: 14px;

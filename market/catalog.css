@@ -6,7 +6,6 @@
 
 body {
   font-family: "Lato", sans-serif;
-  font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -74,6 +73,8 @@ summary::-webkit-details-marker {
 }
 .breadcrumbs__items {
   display: flex;
+}
+.breadcrumbs__items_item {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -187,6 +188,7 @@ summary::-webkit-details-marker {
 .main__filter_sort-check {
   display: flex;
   gap: 9px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
