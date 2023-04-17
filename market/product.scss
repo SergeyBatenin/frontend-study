@@ -189,8 +189,12 @@ img {
 
 	&__add-button {
 		padding: 14px 56px 8px 24px;
-		color: $selectiveColorSite;
+
 		border: 1px solid $selectiveColorSite;
+	}
+
+	&__add-button_link {
+		color: $selectiveColorSite;
 		display: flex;
 		gap: 24px;
 	}

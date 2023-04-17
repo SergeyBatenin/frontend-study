@@ -168,8 +168,10 @@ img {
 }
 .main__add-button {
   padding: 14px 56px 8px 24px;
-  color: #f16d7f;
   border: 1px solid #f16d7f;
+}
+.main__add-button_link {
+  color: #f16d7f;
   display: flex;
   gap: 24px;
 }
