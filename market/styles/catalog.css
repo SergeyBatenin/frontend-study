@@ -242,6 +242,9 @@ summary::-webkit-details-marker {
   align-items: center;
   gap: 25px;
 }
+.main__catalog_link-prev-page, .main__catalog_link-next-page {
+  cursor: pointer;
+}
 .main__catalog_link-page {
   font-style: normal;
   font-weight: 300;

@@ -111,7 +111,6 @@ img {
   font-size: 11px;
   line-height: 13px;
   color: #000000;
-  cursor: pointer;
 }
 .reg-form__radio-btns label {
   cursor: pointer;
@@ -120,6 +119,7 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 .reg-form__radio-input {
   width: 17px;

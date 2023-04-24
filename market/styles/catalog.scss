@@ -277,6 +277,11 @@ summary::-webkit-details-marker {
 		gap: 25px;
 	}
 
+	&__catalog_link-prev-page,
+	&__catalog_link-next-page {
+		cursor: pointer;
+	}
+
 	&__catalog_link-page {
 		font-style: normal;
 		font-weight: 300;
