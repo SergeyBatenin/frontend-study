@@ -175,6 +175,14 @@ img {
 	line-height: 29px;
 	color: #000000;
 
+	&__title {
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 29px;
+		color: #000000;
+	}
+
 	&__perk-list {
 		display: flex;
 		flex-direction: column;

@@ -168,6 +168,13 @@ img {
   line-height: 29px;
   color: #000000;
 }
+.loyality-perks__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
 .loyality-perks__perk-list {
   display: flex;
   flex-direction: column;
